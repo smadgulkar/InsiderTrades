@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Insider Trades</title>
+  <meta charset="utf-8"/>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style2.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Libre+Baskerville|Lora" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='canvasjs.min.js') }}"></script>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
+  	<a class="navbar-brand" href="#">About</a>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  	</button>
+  	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav">
+		  <a class="nav-item nav-link" href="/index">Insider Trades</a>
+		  <!-- <a class="nav-item nav-link" href="/about">About</a> -->
+		  <!-- <a class="nav-item nav-link" href="#">Technical</a>   -->
+		</div>
+	</div>
+	</nav>
+</head>
+<body>			
+	<h1>About</h1>
+	<p>This app scrapes the Bombay Stock Exchange (BSE) site daily and generates a list of insider trades.<br>The data is saved to a local database and sorted to generate a list of Buy transactions.<br> The idea is to track companies that have shown significant insider interest, particularly in the run up to an earnings event to spot potential buying opportunities.</p>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/*body            { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: medium;}*/
+head              { font-family: 'Merriweather', serif;text-align: center; }
+body             { font-family: 'Merriweather', serif; font-size: medium;text-align: center; }
+/*a, h1, h2       { color: #377ba8; }
+h1, h2          { margin: 5; }
+h1              { border-bottom: 2px solid #eee; }
+h2              { font-size: 1.2em; }
+h3              { font-size: 1.2em; color: #377ba8;}*/
+
+
+.navbar-brand {
+  font-size: 2em
+}
+
+table.dataframe, .dataframe th, .dataframe td {
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  border-collapse: collapse;
+  text-align:left;
+  padding: 15px;
+  margin-bottom: 30px;
+  font-size: 0.9em;
+
+}
+
+/*.male th {
+    background-color: #add8e6;
+    color: white;
+}
+
+.female th {
+    background-color: #77dd77;
+    color: white;
+}
+
+tr:nth-child(odd)   { background-color:#eee; }
+tr:nth-child(even)  { background-color:#fff; }*/
+/*tr:hover            { background-color: rgba(51,45,54,0.5);}*/
+
+/*.container-fluid{
+  background-color: #000000;
+  overflow: hidden;
+}*/
+/* Style the links inside the navigation bar */
+/*.navbar a {
+  float: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight:bold;
+}
+*/
+.page-footer {
+  text-align: center;
+  color: white;
+  font-weight: 2px
+}
+
